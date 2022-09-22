@@ -45,6 +45,14 @@ const newPost = [
         timestamp: "21/09/2022 2:57",
         image: "https://cdn.pixabay.com/photo/2021/02/12/07/03/icon-6007530_640.png",
         PostImage: "https://image.shutterstock.com/image-vector/hello-diffrent-languages-vector-art-260nw-2088655750.jpg"
+    },{
+        key: "-",
+        name: 'sirine gaddour',
+        message: "Hi ",
+        email: "syrinagaddour11@gmail.com",
+        timestamp: "21/09/2022 2:57",
+        image: "https://cdn.pixabay.com/photo/2021/02/12/07/03/icon-6007530_640.png",
+        PostImage: "https://image.shutterstock.com/image-vector/hello-diffrent-languages-vector-art-260nw-2088655750.jpg"
     },
 ]
 function Posts() {
