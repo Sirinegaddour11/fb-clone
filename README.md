@@ -1,5 +1,7 @@
 ##  Facebook with REACT.JS (Next.js, Tailwind CSS)
 ![fb](https://user-images.githubusercontent.com/97736654/191725392-04b771f5-1e6f-4d70-95b4-3375ff63e9c5.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Getting Started
 
@@ -18,6 +20,50 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+<img width="110" alt="image" src="https://user-images.githubusercontent.com/97736654/191726881-064bf8ab-6ee3-44dd-9f01-b94a98fca458.png">
+
+
+##  Tailwind CSS
+
+
+1. Install Tailwind CSS:
+Install tailwindcss via npm, and create your tailwind.config.js file.
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+2. Configure your template paths:
+Add the paths to all of your template files in your tailwind.config.js file.
+
+```bash
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+3. Add the Tailwind directives to your CSS:
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+4. Start the Tailwind CLI build process:
+Run the CLI tool to scan your template files for classes and build your CSS.
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+
 
 ## Learn More
 
