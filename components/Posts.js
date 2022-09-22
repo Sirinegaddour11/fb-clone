@@ -46,7 +46,7 @@ const newPost = [
         image: "https://cdn.pixabay.com/photo/2021/02/12/07/03/icon-6007530_640.png",
         PostImage: "https://image.shutterstock.com/image-vector/hello-diffrent-languages-vector-art-260nw-2088655750.jpg"
     },{
-        key: "-",
+        key: "6",
         name: 'sirine gaddour',
         message: "Hi ",
         email: "syrinagaddour11@gmail.com",
